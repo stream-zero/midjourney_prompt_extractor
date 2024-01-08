@@ -18,8 +18,8 @@ def process_image_metadata(image_path):
         job_id = parts[1] if len(parts) > 1 else None
         return description, job_id
 
-def process_images(zip_path,output_dir):
-    temp_dir = f"/tmp/{os.path.splitext(os.path.basename(zip_path))[0]}"
+def process_images(zip_path,output_dir,temp_dir):
+    #temp_dir = f"/tmp/{os.path.splitext(os.path.basename(zip_path))[0]}"
     os.makedirs(temp_dir, exist_ok=True)
 
     extracted_files = unzip_file(zip_path, temp_dir)

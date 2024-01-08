@@ -61,9 +61,10 @@ if __name__ == "__main__":
     source_dir = config['source_directory']
     processed_dir = config['processed_directory']
     output_dir = config['output_directory']
+    temp_dir = config['temp_directory']
     source_file_names = list_zip_files(source_dir)
     for zip_file_name in source_file_names:
-        process_images.process_images(f'{source_dir}/{zip_file_name}', output_dir)
+        process_images.process_images(f'{source_dir}/{zip_file_name}', output_dir, temp_dir)
         move_zip_file(source_dir, zip_file_name, processed_dir)
 
 

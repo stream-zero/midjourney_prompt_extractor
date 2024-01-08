@@ -1,5 +1,6 @@
 {
     "source_directory": "/Users/balajibal/Downloads/mj_source/",
     "processed_directory": "/Users/balajibal/Downloads/mj_processed/",
-    "output_directory": "/Users/balajibal/Downloads/mj_output/"
+    "output_directory": "/Users/balajibal/Downloads/mj_output/",
+    "temp_directory": "/Users/balajibal/Downloads/mj_tmp/"
 }
