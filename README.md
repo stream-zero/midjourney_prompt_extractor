@@ -15,5 +15,10 @@ Scripts to extract prompts from a MidJourney ZIP archive file for generated imag
 # How to run
 * Pull from git or just download the files in tha 'app' directory to a suitable location.
 * edit the config.json with a text editor for your local setup.
-* run the app.py 
+* ensure that your 'source', 'processed' and 'output' directories exist.
+* place the zip files to be processed in the source directory
+* run the app.py
+* once run the output will contain the extracted metadata in 2 file formats '.json' and '.csv' .
+
+
 
